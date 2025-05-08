@@ -6,9 +6,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
+  line-height: 1.6;
   padding: 20px;
 }
 
@@ -16,15 +16,47 @@ header {
   background-color: #4CAF50;
   color: white;
   padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-header h1 {
+.site-title h1 {
   font-size: 2.5rem;
+  margin-bottom: 5px;
 }
 
-header p {
-  font-size: 1.2rem;
+.site-title p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: #388E3C;
+  border-radius: 5px;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #2e7d32;
+  border-radius: 5px;
 }
 
 main {
