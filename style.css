@@ -35,9 +35,9 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 0;
+  gap: 40px;                    
   margin: 0;
+  padding: 10px 0;
   background-color: #388E3C;
   border-radius: 5px;
 }
@@ -47,11 +47,11 @@ header {
 }
 
 .navbar a {
-  display: block;
-  padding: 10px 15px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  padding: 10px 15px;
+  display: inline-block;
 }
 
 .navbar a:hover {
