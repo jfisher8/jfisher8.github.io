@@ -50,7 +50,7 @@ header {
 }
 
 .navbar a:hover {
-  background-color: #2e7d32;
+  text-decoration: underline;
   border-radius: 5px;
 }
 
